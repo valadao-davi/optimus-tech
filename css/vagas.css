@@ -1,0 +1,212 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 64px;
+    width: 1900px;
+    height: 2700px;
+}
+.talentos{
+    display: flex;
+    flex-direction: column;    
+    width: 1740px;
+    height: 602px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    width: 1676px;
+    height: 138px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 1228px;
+    height: 138px;
+}
+.heading_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1228px;
+    height: 88px;
+}
+.badges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 780px;
+    height: 138px;
+}
+.badge_title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 137px;
+    height: 45px;
+}
+.vagasAbertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+
+    width: 137px;
+    height: 28px;
+
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+.vagas_1{
+    width: 101px;
+    height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+}
+.procura{
+    width: 780px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;    
+    color: #101828;
+}
+.equipe{
+    width: 780px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+.img_1{
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+    margin-top: 50px;
+    background: url(team.jpg);
+}
+.Vagas_abertas{
+    gap: 24px;
+    width: 1120px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container_design{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    width: 1248px;
+    height: 358px;
+}
+.titulo_emprego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 24px 28px;
+    gap: 50px;
+    width: 100%;
+    height: 136px;
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    justify-items: flex-start;
+}
+.salario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.inf_job{
+    width: auto;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    text-align: left;
+}
+.area{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    width: 100%;
+    text-align: left;
+}
+.divisao{
+    height: 50px;
+}
+@media screen and (max-width:1440px) {
+    .vagas{
+        width: 1440px;
+        height: 3000px;
+    }
+    .talentos{
+        width: 1280px;
+    }
+    .Vagas_abertas{
+        width: 1280px;
+    }
+    .content{
+        width: 1280px;
+    }
+    .heading{
+        width: 768px;
+    }
+    .heading_2{
+        width: 768px;
+    }
+    .badges{
+        width: 125px;
+    }
+    .badge_title{
+        width: 125px;
+    }
+    .vagasAbertas{
+        width: 101px;
+    }
+    .procura{
+        width: 768px;
+    }
+    .equipe{
+        width: 768px;
+    }
+}
