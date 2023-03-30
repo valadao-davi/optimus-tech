@@ -6,12 +6,13 @@
     width: 1900px;
     height: 430px;
     background: #F9FAFB;
+    margin: 0;
 }
 .formulario_1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 32px;
+    padding: 32px;
     gap: 32px;
 
     width: 832px;

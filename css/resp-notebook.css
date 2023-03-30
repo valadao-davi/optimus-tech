@@ -19,7 +19,7 @@
     }
     .vagas{
         width: 1366px;
-        height: 3000px;
+        height: 2700px;
     }
     .talentos{
         width: 1187px;
@@ -75,9 +75,10 @@
         width: 1366px;
     }
     .formulario{
-        width: 1366px;
+        width: 100%;
+        
     }
-    footer{
-        width: 1366px;
+    .rodapé{
+        width: 100%;
     }
 }
