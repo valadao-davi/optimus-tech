@@ -11,6 +11,7 @@
 @import "./cabeçalho.css";
 @import "./resp-notebook.css";
 @import "./resp-tablet.css";
+@import "./respcell.css";
 *{
     margin: 0;
     padding: 0;

@@ -1,0 +1,163 @@
+@media screen and (max-width: 500px){
+    .login{
+        margin-left: 80px;
+    }
+    div{
+        justify-content: center;
+    }
+    body{
+        width: 500px;
+    }
+    nav{
+        width: 500px;
+    }
+    ul{
+        width: 440px;
+    }
+    section{
+        width: 440px;
+    }
+    .itens{
+        display: none;
+    }
+    .espaço{
+        width: 100px;
+    }
+    .vagas{
+        width: 500px;
+        height: 2500px;
+    }
+    .talentos{
+        width: 440px;
+    }
+    .titulo_1{
+        width: 209px;
+    }
+    .titulo{
+        width: 209px;
+    }
+    .Vagas_abertas{
+        display: flex;
+        align-items: center;
+        width: 440px;
+    }
+    .content{
+        width: 440px;
+        gap: 25px;
+    }
+    .heading{
+        width: 450px;
+    }
+    .heading_2{
+        width: 450px;
+    }
+        .badges{
+            width: 101px;
+            height: 40px;
+        }
+        .badge_title{
+            width: 101px;
+            height: 200px;
+        }
+        .vagasAbertas{
+            display: flex;
+            align-items: center;
+            width: 101px;
+            height: 40px;
+        }
+        .vagas_1{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 17px;
+            padding: 20px;
+        }
+    .procura{
+        width: 350px;
+        font-size: 22px;
+        align-items: center;
+        justify-content: center;
+    }
+    .equipe{
+        width: 350px;
+        font-size: 20px;
+    }
+    
+    .cabeçalho_2{
+        width: 500px;
+        gap: 64px;
+        height: 580px;
+    }
+    .container{
+        width: 440px;
+    }
+    .caixa{
+        flex-direction: column;
+        display: flex;
+        width: 658px;
+        align-items: center;
+        gap: 100px;
+    }
+    .cabeçalho{
+        width: 500px;
+        margin-bottom: 60px;
+    }
+    .formulario{
+        width: 500px;
+    }
+    .formulario_1{
+        width: 500px;
+    }
+    .rodapé{
+        width: 500px;
+        height: 200px;
+    }
+    .sub{
+       display: none;
+    }
+    .inf_1{
+        background: rgba(196, 25, 25, 0.03);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .about{
+        font-size: 16px
+    }
+    .img_1{
+        width: 450px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .titulo_emprego{
+        width: 350px;
+    }
+    .depoimentos{
+        width: 350px;
+        height: 250px;
+    }
+    .container_depoimentos{
+        width: 350px;
+        height: 200px;
+    }
+    .caixa_inf{
+        width: 350px;
+    }
+    .colaboradores_1{
+        font-size: 20px;
+        width: 350px;
+    }
+    .colaboradores_2{
+        display: none;
+    }
+    .titulo_formulario{
+        width: 400px;
+        font-size: 18px;
+    }
+    .sub_formulario{
+        width: 300px;
+        font-size: 16px;
+    }
+    main{
+        width: 500px;
+    }
+}
