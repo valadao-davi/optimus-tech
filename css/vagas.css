@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 0px;
+    padding: 40px 0px;
     gap: 64px;
-    width: 1900px;
-    height: 2700px;
+    width: 100%;
+    height: 200px;
 }
 .talentos{
     display: flex;
     flex-direction: column;    
-    width: 1740px;
+    width: 80%;
     height: 602px;
     align-items: center;
 }
@@ -20,18 +20,20 @@
     align-items: center;
     padding: 0px;
     gap: 48px;
-    width: 1676px;
+    width: 100%;
     height: 138px;
 }
+
 .heading{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 20px;
-    width: 1228px;
+    width: 100%;
     height: 138px;
 }
+
 .heading_2{
     display: flex;
     flex-direction: column;
@@ -39,7 +41,7 @@
     padding: 0px;
     gap: 16px;
 
-    width: 1228px;
+    width: 100%;
     height: 88px;
 }
 .badges{
@@ -64,7 +66,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4px 12px;
 
     width: 137px;
     height: 28px;
@@ -72,17 +73,19 @@
     background: rgba(142, 36, 36, 0.05);
     border-radius: 16px;
 }
-.vagas_1{
+.vagas_1 {
     width: 101px;
-    height: 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    align-self: center;
+    margin-bottom: 0;
     color: #8E2424;
 }
+
 .procura{
     width: 780px;
     height: 80px;
@@ -107,7 +110,7 @@
     color: #667085;
 }
 .img_1{
-    width: 1216px;
+    width: 100%;
     height: 400px;
     left: 112px;
     top: 298px;
@@ -116,7 +119,7 @@
 }
 .Vagas_abertas{
     gap: 24px;
-    width: 1120px;
+    width: 100%;
     margin: auto;
     height: auto;
     display: flex;
@@ -174,7 +177,7 @@
 .divisao{
     height: 50px;
 }
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) {
     .vagas{
         width: 1440px;
         height: 3000px;
