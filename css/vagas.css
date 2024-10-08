@@ -4,14 +4,15 @@
     align-items: center;
     padding: 40px 0px;
     gap: 64px;
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: fit-content;
 }
 .talentos{
     display: flex;
     flex-direction: column;    
-    width: 80%;
-    height: 602px;
+    width: 100%;
+    height: fit-content;
+    gap: 32px;
     align-items: center;
 }
 .content{
@@ -176,40 +177,4 @@
 }
 .divisao{
     height: 50px;
-}
-@media screen and (min-width:1440px) {
-    .vagas{
-        width: 1440px;
-        height: 3000px;
-    }
-    .talentos{
-        width: 1280px;
-    }
-    .Vagas_abertas{
-        width: 1280px;
-    }
-    .content{
-        width: 1280px;
-    }
-    .heading{
-        width: 768px;
-    }
-    .heading_2{
-        width: 768px;
-    }
-    .badges{
-        width: 125px;
-    }
-    .badge_title{
-        width: 125px;
-    }
-    .vagasAbertas{
-        width: 101px;
-    }
-    .procura{
-        width: 768px;
-    }
-    .equipe{
-        width: 768px;
-    }
 }

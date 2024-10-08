@@ -7,6 +7,11 @@
     width: 100%;
     height: 300px;
 }
+header{
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+}
 .about{
     width: 78px;
     height: 24px;
